@@ -12,8 +12,7 @@ An online age calculator calculates age and date of birth by adding and subtract
 3. Activate the [Age Calculator](https://www.calculator.io/age-calculator/ "Age Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_age_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Age Calculator to the sidebar through the `Appearance -> Widgets -> Age Calculator` menu in WordPress.
+* Add the shortcode `[ci_age_calculator]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_age_calculator(); ?>` to your template where you would like the Age Calculator to appear.
 
 ## Libraries in Use
