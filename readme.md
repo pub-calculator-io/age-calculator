@@ -1,11 +1,11 @@
-# Age Calculator by Calculator.iO
-Contributors: calculatorio
-Tags: 
-Requires at least: 5.0
-Tested up to: 6.4.0
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+# Age Calculator by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+> Contributors: calculatorio
+> Tags: 
+> Requires at least: 5.0
+> Tested up to: 6.4.0
+> Stable tag: 1.0.0
+> License: GPLv2 or later
+> License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 An online age calculator calculates age and date of birth by adding and subtracting time, including years, days, hours, minutes, and seconds.
 
