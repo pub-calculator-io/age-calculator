@@ -38,11 +38,11 @@ Libraries in use:
 * Add the following code: `<?php display_ci_age_calculator(); ?>` to your template where you would like the Age Calculator to appear.
 
 ## Screenshots
-![Age Calculator Input Form](/assets/images/screenshot-1.png?raw=true "Age Calculator Input Form")
-**The Age Calculator Input Form**
+![Age Calculator Input Form](/assets/images/screenshot-1.png "Age Calculator Input Form")
+1. **The Age Calculator Input Form**
 
-![Age Calculator Calculation Results](/assets/images/screenshot-1.png?raw=true "Age Calculator Calculation Results")
-**The Age Calculator Calculation Results**
+![Age Calculator Calculation Results](/assets/images/screenshot-2.png "Age Calculator Calculation Results")
+2. **The Age Calculator Calculation Results**
 
 ## Changelog
 
