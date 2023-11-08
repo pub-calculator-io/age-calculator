@@ -12,8 +12,8 @@ An online age calculator calculates age and date of birth by adding and subtract
 
 ## Installation
 
-1. [Download the ZIP](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) file of this repository.
-2. Upload the /ci_age_calculator-master/ folder to the /wp-content/plugins/ directory.
+1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+2. Upload the /age-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Age Calculator](https://www.calculator.io/age-calculator/ "Age Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
