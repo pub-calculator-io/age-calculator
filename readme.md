@@ -1,21 +1,10 @@
-# Age Calculator by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
-> Contributors: calculatorio
-> Tags: 
-> Requires at least: 5.0
-> Tested up to: 6.4.0
-> Stable tag: 1.0.0
-> License: GPLv2 or later
-> License URI: https://www.gnu.org/licenses/gpl-2.0.html
-
-An online age calculator calculates age and date of birth by adding and subtracting time, including years, days, hours, minutes, and seconds.
-
-## Description
+# Age Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
 
 An online age calculator calculates age and date of birth by adding and subtracting time, including years, days, hours, minutes, and seconds.
 
 ### Shortcode
 
-Use the Age Calculator shortcode:
+Use the Age Calculator WordPress shortcode:
 
 `[ci_age_calculator]`
 
@@ -44,8 +33,3 @@ Libraries in use:
 
 ### The Age Calculator Calculation Results
 ![Age Calculator Calculation Results](/assets/images/screenshot-2.png "Age Calculator Calculation Results")
-
-## Changelog
-
-### 1.0.0
-* Initial release
