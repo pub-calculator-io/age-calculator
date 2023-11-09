@@ -13,6 +13,8 @@ An online age calculator calculates age and date of birth by adding and subtract
 
 An online age calculator calculates age and date of birth by adding and subtracting time, including years, days, hours, minutes, and seconds.
 
+[Age Calculator Homepage](https://www.calculator.io/age-calculator/ "Age Calculator Homepage")
+
 __Shortcode__
 
 Use the Age Calculator shortcode:
