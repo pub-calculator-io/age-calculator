@@ -13,34 +13,35 @@ An online age calculator calculates age and date of birth by adding and subtract
 
 An online age calculator calculates age and date of birth by adding and subtracting time, including years, days, hours, minutes, and seconds.
 
-[Age Calculator Homepage](https://www.calculator.io/age-calculator/ "Age Calculator Homepage")
+[https://www.calculator.io/age-calculator/](https://www.calculator.io/age-calculator/)
 
-__Shortcode__
-
-Use the Age Calculator shortcode:
+__Age Calculator Shortcode__
 
 `[ci_age_calculator]`
-
-Libraries in use:
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
 
 == Installation ==
 
 1. Upload the /ci_age_calculator/ folder to the /wp-content/plugins/ directory.
 2. Activate the [Age Calculator](https://www.calculator.io/age-calculator/ "Age Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
-== Usage ==
+== Age Calculator Usage ==
+
 * Add the shortcode `[ci_age_calculator]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_age_calculator(); ?>` to your template where you would like the Age Calculator to appear.
 
 == Screenshots ==
+
 1. The Age Calculator Input Form.
 2. The Age Calculator Calculation Results.
+
+== Libraries used in Age Calculator ==
+
+1. https://mathjs.org/
+2. https://katex.org/
+3. https://github.com/aFarkas/lazysizes
+4. https://github.com/RobinHerbots/Inputmask
+5. https://air-datepicker.com/
+6. https://www.chartjs.org/
 
 == Changelog ==
 
