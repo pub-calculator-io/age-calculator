@@ -9,41 +9,29 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 An online age calculator calculates age and date of birth by adding and subtracting time, including years, days, hours, minutes, and seconds.
 
-== Description ==
-
-An online age calculator calculates age and date of birth by adding and subtracting time, including years, days, hours, minutes, and seconds.
-
 [https://www.calculator.io/age-calculator/](https://www.calculator.io/age-calculator/)
 
-__Age Calculator Shortcode__
+== Usage ==
+
+Add the Age Calculator shortcode to your page, post or sidebar:
 
 `[ci_age_calculator]`
 
-== Installation ==
+Add the following code to your template where you would like the Age Calculator to appear:
 
-1. Upload the /ci_age_calculator/ folder to the /wp-content/plugins/ directory.
-2. Activate the [Age Calculator](https://www.calculator.io/age-calculator/ "Age Calculator Homepage") plugin through the "Plugins" menu in WordPress.
-
-== Age Calculator Usage ==
-
-* Add the shortcode `[ci_age_calculator]` to your page, post or sidebar.
-* Add the following code: `<?php display_ci_age_calculator(); ?>` to your template where you would like the Age Calculator to appear.
+`<?php display_ci_age_calculator(); ?>`
 
 == Screenshots ==
 
 1. The Age Calculator Input Form.
 2. The Age Calculator Calculation Results.
 
-== Libraries used in Age Calculator ==
+== Installation ==
 
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
+1. Upload the Age Calculator /ci_age_calculator/ folder to the /wp-content/plugins/ directory.
+2. Activate the Age Calculator plugin through the "Plugins" menu in WordPress.
 
 == Changelog ==
 
 = 1.0.0 =
-* Initial release
+* Initial release of Age Calculator
