@@ -1,6 +1,6 @@
 === Age Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: age calculator, calculate age, birthdate to age, find current age, age finder online, date of birth calculator, calculate exact age, age in years calculator, birthday calculator
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
