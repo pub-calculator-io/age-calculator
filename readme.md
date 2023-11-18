@@ -1,4 +1,4 @@
-# Age Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Age Calculator Widget for WordPress
 
 An online age calculator calculates age and date of birth by adding and subtracting time, including years, days, hours, minutes, and seconds.
 
