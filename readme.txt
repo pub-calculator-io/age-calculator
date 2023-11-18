@@ -1,4 +1,4 @@
-=== Age Calculator by Calculator.iO ===
+=== Age Calculator ===
 Contributors: calculatorio
 Tags: age calculator, calculate age, birthdate to age, find current age, age finder online, date of birth calculator, calculate exact age, age in years calculator, birthday calculator
 Requires at least: 5.0
