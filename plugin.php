@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Age Calculator by www.calculator.io
+Plugin Name: CI Age calculator
 Plugin URI: https://www.calculator.io/age-calculator/
 Description: An online age calculator calculates age and date of birth by adding and subtracting time, including years, days, hours, minutes, and seconds.
 Version: 1.0.0
