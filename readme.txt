@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Age Calculator 
 == Screenshots ==
 
 1. The Age Calculator Input Form.
-2. The Age Calculator Calculation Results.
 
 == Installation ==
 

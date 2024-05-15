@@ -3,7 +3,6 @@
 An online age calculator calculates age and date of birth by adding and subtracting time, including years, days, hours, minutes, and seconds.
 
 ![Age Calculator Input Form](/assets/images/screenshot-1.png "Age Calculator Input Form")
-![Age Calculator Calculation Results](/assets/images/screenshot-2.png "Age Calculator Calculation Results")
 
 ## Installation
 

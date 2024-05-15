@@ -75,7 +75,7 @@
                 <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row  " >
                 
                 
-                		<button class="system-switcher system-switcher--format" onclick="toggleSystem(this)">
+                		<button class="system-switcher system-switcher--format" onclick="toggleSystem(this)" aria-label="Switch System">
                 			<div class="system-switcher__circle"></div>
                 			<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                 	<path d="M7.84254 5.61418C7.84254 4.72269 8.56524 4 9.45673 4C10.7869 4 11.5462 5.51856 10.7481 6.58269L7.84254 10.4567H11.4745M3 5.29135L4.08967 4.41961C4.30105 4.2505 4.61418 4.401 4.61418 4.6717V10.4567" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -96,15 +96,17 @@
                 		</script>
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
-                	<link rel="stylesheet" href="./assets/css/air-datepicker.css" />
-                	<script type="text/javascript" src="./assets/js/lib/air-datepicker.js" id="datepicker_script"></script>
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                	<link rel="stylesheet" href="./assets/css/air-datepicker.min.css" defer />
+                	<script type="text/javascript" src="./assets/js/lib/air-datepicker.js" id="datepicker_script" defer></script>
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -119,8 +121,7 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><style type="text/css">
     .result-age > div.result-age--days .active {
         color: #000 !important;
@@ -130,7 +131,7 @@
 <div class="calculator-result col">
 	<p class="table-cell table-cell--dark table-cell--only-title">Age</p>
 	<div class="table-cell table-cell--age table-cell--only row">
-		<div class="col result-age__text">
+		<div class="col result-age__text animate">
 			<p class="result-text">41 years 11 months 0 weeks 4 days</p>
 			<p class="result-text">or 995 months 4 days</p>
 			<p class="result-text">or 2,187 weeks 4 days</p>
@@ -141,7 +142,7 @@
 		</div>
 		<div class="row table-cell--date-count table-cell--date-left">
 			<div class="col result-age result-age--small result-age--from">
-				<p class="date-title">From <span class="date-title date-title--date">28 Mar 1981<span></span></span></p>
+				<p class="date-title">From <span class="date-title date-title--date animate">28 Mar 1981<span></span></span></p>
 				<div>
 					<p>M</p>
 					<p>T</p>
@@ -151,7 +152,7 @@
 					<p>S</p>
 					<p>S</p>
 				</div>
-				<div class="result-age--days">
+				<div class="result-age--days animate">
 					<p>23</p>
 					<p>24</p>
 					<p>25</p>
@@ -197,7 +198,7 @@
 				</div>
 			</div>
 			<div class="col result-age result-age--small result-age--to">
-				<p class="date-title">To <span class="date-title date-title--date">1 Mar 2023</span></p>
+				<p class="date-title">To <span class="date-title date-title--date animate">1 Mar 2023</span></p>
 				<div>
 					<p>M</p>
 					<p>T</p>
@@ -207,7 +208,7 @@
 					<p>S</p>
 					<p>S</p>
 				</div>
-				<div class="result-age--days">
+				<div class="result-age--days animate">
 					<p>27</p>
 					<p>28</p>
 					<p class="active current">1</p>

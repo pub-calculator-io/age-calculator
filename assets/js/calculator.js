@@ -14,25 +14,25 @@ function calculate() {
 	const hours = minutes / 60;
 	const days = Math.trunc(hours / 24);
 
-	results.unshift(`${setCommas(seconds)} seconds`);
-	results.unshift(`${setCommas(minutes)} minutes`);
-	results.unshift(`${setCommas(hours)} hours`);
-	results.unshift(plural(setCommas(days), 'd'));
+	results.unshift(plural(seconds, 'seconds:second:seconds:seconds:seconds:seconds'));
+	results.unshift(plural(minutes, 'minutes:minute:minutes:minutes:minutes:minutes'));
+	results.unshift(plural(hours, 'hours:hour:hours:hours:hours:hours'));
+	results.unshift(plural(days, 'days:day:days:days:days:days'));
 
 	/*Weeks*/
 	const weeks = Math.trunc(days / 7);
 	const weekRemainDays = days % 7;
 	let weekResult = '';
-	if (weeks > 0) weekResult = `${plural(setCommas(weeks), 'w')}`;
-	if (weeks > 0 && weekRemainDays > 0) weekResult += ` ${plural(weekRemainDays, 'd')}`;
+	if (weeks > 0) weekResult = plural(weeks, 'weeks:week:weeks:weeks:weeks:weeks');
+	if (weeks > 0 && weekRemainDays > 0) weekResult += ` ${plural(weekRemainDays, 'days:day:days:days:days:days')}`;
 
 	if (weekResult.length) results.unshift(weekResult);
 
 	/*Months*/
 	let monthsResult = '';
 	let months = 24 * diff.y + diff.m;
-	if (months > 0) monthsResult = `${plural(setCommas(months), 'm')}`;
-	if (months > 0 && diff.d > 0) monthsResult += ` ${plural(diff.d, 'd')}`;
+	if (months > 0) monthsResult = plural(months, 'months:month:months:months:months:months');
+	if (months > 0 && diff.d > 0) monthsResult += ` ${plural(diff.d, 'days:day:days:days:days:days')}`;
 
 	if (monthsResult.length) results.unshift(monthsResult);
 
@@ -40,7 +40,7 @@ function calculate() {
 	let yearsResult = '';
 	const years = diff.y;
 	if (years > 0) {
-		yearsResult = `${plural(diff.y, 'y')} ${plural(diff.m, 'm')} ${plural(diff.w, 'w')} ${plural(diff.d, 'd')}`;
+		yearsResult = `${plural(diff.y, 'years:year:years:years:years:years')} ${plural(diff.m, 'months:month:months:months:months:months')} ${plural(diff.w, 'weeks:week:weeks:weeks:weeks:weeks')} ${plural(diff.d, 'days:day:days:days:days:days')}`;
 	}
 	if (yearsResult.length) results.unshift(yearsResult);
 
